@@ -11,7 +11,7 @@
     "pkgwin": "pkg . -t node16-win-x64 -C GZip -o bin/app --no-bytecode",
     "pkglinux": "pkg . -t node16-linux-x64 -C GZip -o bin/app --no-bytecode",
     "pkgmacos": "pkg . -t node16-macos-x64 -C GZip -o bin/app --no-bytecode",
-    "install": "npm install --registry=https://registry.npmjs.org/"
+    "install": "echo 'Skip recursive install"
   },
   "bin": "./app.js",
   "pkg": {
